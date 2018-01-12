@@ -1,0 +1,14 @@
+name: LagFinder
+version: 1.0.0
+description: LagFinder
+author: Sulfurias
+
+main: net.draycia.LagFinder.Main
+
+commands:
+    findlag:
+        description: Finds lag. Duh.
+        usage: /<command>
+        permission: sulfurias.findlag
+
+permissions: {}
