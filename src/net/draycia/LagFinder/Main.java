@@ -6,10 +6,10 @@ import net.draycia.LagFinder.Commands.CommandFindLag;
 
 public class Main extends JavaPlugin {
 	
-	@Override
+    @Override
     public void onEnable() {        
         this.getCommand("findlag").setExecutor(new CommandFindLag());
-	}
+    }
 
     @Override
     public void onDisable() {
